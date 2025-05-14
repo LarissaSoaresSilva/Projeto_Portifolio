@@ -3,24 +3,29 @@
 
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Projeto Portfólio">
     <meta name="author" content="Larissa Soares">
     <meta name="keywords" content="HTML, CSS, JavaScript">
+
     <link rel="icon" type="image/svg" href="./assets/img/airplane-journey.svg" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+
     <title>Meu Perfil</title>
+
 </head>
 
 <body>
     <header>
-        <div id="header_content">
+        <div id="header_content" class="flex header_content">
 
             <div id="titulo">
                 <h1>Larissa Soares</h1>
             </div>
-            <div id="menu">
+            <div id="menu" class="menu">
                 <nav>
-                    <ul id="menu">
+                    <ul id="menu" class="menu">
                         <li>
                             <a href="index.html"> Home </a>
                         </li>
@@ -34,11 +39,11 @@
     </header>
 
     <main>
-        <section id="about">
+        <section id="about" class="flex_start about">
             <h2>Sobre a Larissa Soares</h2>
 
-            <div id="conteudo">
-                <img src="./assets/img/user_02.svg" alt="Foto do criador desse conteudo" />
+            <div id="conteudo" class="flex conteudo">
+                <img src="./assets/img/foto-perfil.jpg" alt="Foto do criador desse conteudo" class="img_profile" />
                 <article id="sobre_texto">
                     <p>
                         Larissa Soares tem 32 primaveras bem vividas e carrega no sorriso a alma inquieta de quem nasceu
@@ -65,9 +70,9 @@
                 </article>
             </div>
         </section>
-        <section id="video">
+        <section id="video" class="flex_start video">
             <h2>O que amo ver:</h2>
-            <div class="youtube">
+            <div class="youtube flex">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/atsChczDJT4?si=xauyyGaSa9B3hKBP"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -76,22 +81,23 @@
         </section>
     </main>
 
-    <footer>
-        <section id="redes_sociais">
+    <footer class="flex">
 
-            <a href="">
-                <img src="assets/img/linkedin.svg" alt="LinkedIn" />
+        <section id="redes_sociais" class="redes_sociais">
+
+            <a href="https://www.linkedin.com/in/larissa-soares-da-silva/">
+                <img src="./assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
             </a>
-            <a href="">
-                <img src="assets/img/github.svg" alt="Github" />
+            <a href="https://github.com/LarissaSoaresSilva">
+                <img src="./assets/img/github.svg" alt="Github" class="social_icon"/>
             </a>
-            <a href="">
-                <img src="assets/img/instagram.svg" alt="Instagram" />
+            <a href="https://www.instagram.com/larissasoaress27/?next=%2F">
+                <img src="./assets/img/instagram.svg" alt="Instagram" class="social_icon"/>
             </a>
 
         </section>
         <h3>
-            Feito com 🧡 por Larissa Soares - 2025
+            Feito com 💜 por Larissa Soares - 2025
         </h3>
     </footer>
     
