@@ -1,4 +1,4 @@
-# Projeto Portfólio Pessoal
+<h1 align="center">🕹️ Projeto Portfólio Pessoal</h1>
 
 <div align="center"> 
 	<img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5" alt="HTML Badge" /> 
@@ -6,32 +6,44 @@
 	<img src="https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge" /> 
 </div>
 
+##
+
+## 📖 Descrição
+
 Este é o repositório do meu site portfólio pessoal, desenvolvido com HTML, CSS e JavaScript. O site inclui informações sobre mim, meus projetos, habilidades e formas de contato.
 
-## Tecnologias Utilizadas
+##
+
+## 🚀 Tecnologias Utilizadas
 
 - **HTML**: Estrutura de conteúdo e marcação do site.
 - **CSS**: Estilização e layout das páginas.
 - **JavaScript**: Funcionalidades e interatividade do site.
+- 
+##
 
-## Executando Localmente
+## 🛠️ Executando Localmente
 
 Para visualizar o projeto localmente, siga as instruções abaixo:
 
-### Pré-requisitos
+##
+
+### ⚙️ Pré-requisitos
 
 - [Visual Studio Code](https://code.visualstudio.com/) (ou outro editor de sua preferência)
 - Extensão **Live Server** no VSCode
 
-### Passos
+##
+
+### 🛠️ Como Executar o Projeto Localmente
 
 1. Clone o repositório:
-	```bash
-   git clone https://github.com/LarissaSoaresSilva/Projeto_Portifolio.git
+```bash
+git clone https://github.com/LarissaSoaresSilva/Projeto_Portifolio.git
 ```
 2. Abra o projeto no Visual Studio Code:
-   ```bash
-   code portifolio
+ ```bash
+code portifolio
 ```
 3. No VSCode, abra um arquivo HTML do projeto (ex: `index.html`).
 4. Clique com o botão direito no editor e selecione **"Open with Live Server"**.  
@@ -39,12 +51,22 @@ Para visualizar o projeto localmente, siga as instruções abaixo:
 
 Isso abrirá o site em seu navegador padrão, e você poderá visualizar e testar as alterações em tempo real.
 
-## Deploy
+##
+
+## 🚀 Deploy
 
 Este site está disponível publicamente através do **GitHub Pages**. Você pode acessar a versão online pelo link abaixo:
 
 - [Portfólio Pessoal](https://larissasoaressilva.github.io/Projeto_Portifolio/)
+  
+##
 
-## Contribuindo
+## 🤝 Contribuindo
 
 Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir um **pull request**.
+
+##
+
+##  👩🏻‍💻 Desenvolvedora
+
+Feito com 💜 por Larissa Soares!
