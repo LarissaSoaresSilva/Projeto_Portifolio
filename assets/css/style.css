@@ -229,8 +229,8 @@ form button:hover {
     font-weight: 600;
 }
 
-/* Responsividade para telas menores */
-@media (max-width: 768px) {
+/* Responsividade para todos os navegadores e telas menores */
+@media (max-width: 1024px) {
     .header_content,
     .conteudo,
     .video,
@@ -238,6 +238,7 @@ form button:hover {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        gap: 1rem;
     }
 
     .menu ul {
@@ -247,18 +248,20 @@ form button:hover {
     }
 
     .img_profile {
-        width: 100%;
+        width: 90%;
         max-width: 280px;
         height: auto;
         margin-bottom: 1rem;
     }
 
     form {
-        width: 90%;
+        width: 95%;
         padding: 1rem;
     }
 
-    input, textarea, button {
+    input,
+    textarea,
+    button {
         width: 100%;
         font-size: 1rem;
     }
@@ -278,5 +281,6 @@ form button:hover {
     footer {
         flex-direction: column;
         padding: 1.5rem;
+        text-align: center;
     }
 }
